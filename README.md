@@ -30,6 +30,24 @@ AWS_BUCKET="lambda"
 AWS_BUCKET_KEY="dir/test/output.txt"
 ```
 
++ Ative essas variáveis no ambiente local e no console da AWS Lambda.
+
+```bash
+export OPENSEARCH_HOST="localhost" && \
+export OPENSEARCH_PORT="9200" && \
+export OPENSEARCH_PASSWD="<Senha de acesso ao Elasticsearxh>" && \
+export OPENSEARCH_USER="elastic" && \
+export MINIO_ROOT_USER="admin" && \
+export MINIO_ROOT_PASSWORD="<Senha de acesso ao MinIO>" && \
+export INDEX_LIST="index-tes1,index-tes2,index-tes3" && \
+export AWS_ACCESS_KEY="<Access Key Minio ou S3>"  && \
+export AWS_SECRET_KEY="<Secret Key Minio ou S3>"  && \
+export AWS_REGION_NAME="sa-east-1" && \
+export AWS_ENDPOINT="http://localhost:9000" && \
+export AWS_BUCKET="lambda" && \
+export AWS_BUCKET_KEY="dir/test/output.txt"
+```
+
 + Ativando os serviços via Docker Compose
 
 ```bash
