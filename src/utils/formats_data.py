@@ -16,8 +16,8 @@ def formats_data(index_list: list) -> object:
                 index_name,
                 index_query
             )
-        except Exception as _:
-            print(_)
+        except Exception as error:
+            print(error)
             response = {}
         
         max_agg = response.get("aggregations", {}).get("max_data_processamento", {})
