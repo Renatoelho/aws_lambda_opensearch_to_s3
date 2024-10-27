@@ -54,6 +54,12 @@ export AWS_BUCKET_KEY="dir/test/output.txt"
 docker compose --env-file ./.env -p lambda -f docker-compose.yaml up -d
 ```
 
++ Acessando o MinIO
+
+[http://localhost:9001/login](http://localhost:9001/login)
+
+Usuário e senha estão no arquivo [./.env](./.env)
+
 + Configuração do Ambiente Python Local
 
 ```bash
