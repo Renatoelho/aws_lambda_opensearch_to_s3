@@ -33,5 +33,4 @@ def formats_data(index_list: list) -> object:
         })
 
     df_indexes = pd.DataFrame(data)
-    print(df_indexes)
     return df_indexes.to_csv(sep=";", index=False)

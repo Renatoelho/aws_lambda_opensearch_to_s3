@@ -15,6 +15,7 @@ cd aws_lambda_opensearch_to_s3/
 + Crie o arquivo ```.env``` com o seguinte conteúdo:
 
 ```text
+PYTHON_VERSION="3.12"
 OPENSEARCH_HOST="localhost"
 OPENSEARCH_PORT="9200"
 OPENSEARCH_PASSWD="<Senha de acesso ao Elasticsearxh>"
