@@ -24,8 +24,8 @@ services:
       - OPENSEARCH_USER=elastic #Usuário Elasticsearch
       - OPENSEARCH_PASSWD=kE2CGa1DRwR82BD0ViqM #Senha Elasticsearch
       - AWS_PROFILE=True
-      - AWS_ACCESS_KEY=minio #Usuário MinIO export AWS_ACCESS_KEY=imRswYq1ZWXPvnUZ45Lf
-      - AWS_SECRET_KEY=kE2CGa1DRwR82BD0ViqM #Senha MinIO export AWS_SECRET_KEY=b3f4SgvqGvmQvF84TLm2IOfGLJsP5XwIe7e6qSCr
+      - AWS_ACCESS_KEY=minio #Usuário MinIO
+      - AWS_SECRET_KEY=kE2CGa1DRwR82BD0ViqM #Senha MinIO
       - AWS_BUCKET=lambda
       - AWS_REGION_NAME=sa-east-1
       - AWS_ENDPOINT=http://minio-s3:9000
